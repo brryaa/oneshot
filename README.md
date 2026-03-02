@@ -35,8 +35,8 @@
 
 1. Go to the [**Releases**](../../releases) page  
    前往 [**Releases**](../../releases) 页面
-2. Download the latest `app-release.apk`  
-   下载最新的 `app-release.apk`
+2. Download the latest `oneshot.apk`  
+   下载最新的 `oneshot.apk`
 3. On your Android device, enable **"Install from unknown sources"** in Settings  
    在手机设置中开启**"允许安装未知来源应用"**
 4. Open the downloaded APK and install  
