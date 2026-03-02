@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="open_settings"
+        android:enabled="true"
+        android:icon="@mipmap/magiclink"
+        android:shortcutShortLabel="@string/shortcut_main_short_label"
+        android:shortcutLongLabel="@string/shortcut_main_title">
+        <intent
+            android:action="com.example.magiclink.ACTION_OPEN_SETTINGS"
+            android:targetPackage="com.example.magiclink"
+            android:targetClass="com.example.magiclink.MainActivity" />
+    </shortcut>
+</shortcuts>

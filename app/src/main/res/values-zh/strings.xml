@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OneShot</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut_main_title">设置中心</string>
+    <string name="shortcut_main_short_label">设置</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">OneShot 控制器</string>
+    <string name="btn_trigger_magic">执行魔法操作</string>
+    <string name="btn_open_settings">设置坐标</string>
+    <string name="magic_triggered">魔法已触发！</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_disabled">请先开启辅助功能服务</string>
+    <string name="accessibility_needed_msg">请先开启 OneShot 辅助功能服务</string>
+    <string name="accessibility_not_enabled_msg">辅助功能服务未开启，请前往设置开启</string>
+    <string name="service_label">状态栏点击服务</string>
+    <string name="service_description">OneShot 辅助功能服务</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_title">设置坐标</string>
+    <string name="settings_header">设置点击坐标</string>
+    <string name="hint_x">输入 X 坐标 (例如: 660.0)</string>
+    <string name="hint_y">输入 Y 坐标 (例如: 940.0)</string>
+    <string name="btn_save">保存坐标</string>
+    <string name="settings_hint">提示：开启辅助功能后，下拉通知栏，观察您想点击的按钮在屏幕上的大致位置，然后在此处输入 X 和 Y 坐标值。</string>
+    <string name="settings_error_empty">请输入有效的 X 和 Y 坐标</string>
+    <string name="settings_save_success">坐标已保存！</string>
+    <string name="settings_error_format">坐标格式错误，请输入数字</string>
+</resources>

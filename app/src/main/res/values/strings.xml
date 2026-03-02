@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OneShot</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut_main_title">Settings Center</string>
+    <string name="shortcut_main_short_label">Settings</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">OneShot Controller</string>
+    <string name="btn_trigger_magic">Execute Magic</string>
+    <string name="btn_open_settings">Set Coordinates</string>
+    <string name="magic_triggered">Magic triggered!</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_disabled">Please enable Accessibility Service first</string>
+    <string name="accessibility_needed_msg">Please enable OneShot Accessibility Service first</string>
+    <string name="accessibility_not_enabled_msg">Accessibility Service is not enabled. Please go to Settings to enable it.</string>
+    <string name="service_label">Status Bar Click Service</string>
+    <string name="service_description">OneShot Accessibility Service</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_title">Set Coordinates</string>
+    <string name="settings_header">Set Click Coordinates</string>
+    <string name="hint_x">Enter X coordinate (e.g. 660.0)</string>
+    <string name="hint_y">Enter Y coordinate (e.g. 940.0)</string>
+    <string name="btn_save">Save Coordinates</string>
+    <string name="settings_hint">Tip: After enabling the Accessibility Service, pull down the notification bar on your device, observe the approximate position of the button you want to click, then enter the X and Y coordinates here.</string>
+    <string name="settings_error_empty">Please enter valid X and Y coordinates</string>
+    <string name="settings_save_success">Coordinates saved!</string>
+    <string name="settings_error_format">Invalid format, please enter numbers</string>
+</resources>
