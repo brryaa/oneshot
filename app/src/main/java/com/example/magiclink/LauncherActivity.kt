@@ -23,7 +23,7 @@ class LauncherActivity : AppCompatActivity() {
     }
 
     private fun checkAccessibilityService(): Boolean {
-        val service = "$packageName/$packageName.ClashClickService"
+        val service = "$packageName/${ClashClickService::class.java.name}"
         val enabledServices = Settings.Secure.getString(contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES) ?: ""
         return enabledServices.contains(service)
     }
